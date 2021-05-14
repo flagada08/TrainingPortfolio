@@ -1,0 +1,33 @@
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3.5rem;
+  color: #eee;
+  text-align: center;
+  -webkit-text-stroke: 2.5px;
+  -webkit-text-stroke-color: #333;
+}
+
+h1:hover {
+  text-shadow: 0 0 5px #eee;
+}
+
+.dash {
+  display: inline-block;
+    height: 15px;
+    width: 45px;
+    background-color: #eee;
+    animation: blink 1s infinite linear;
+    border: 3.5px solid #333;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

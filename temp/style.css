@@ -1,0 +1,75 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
+
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  background: url(./img/art-scenery-gif-waterfall-3368027.gif) no-repeat center/cover;
+  height: 100vh;
+  overflow: hidden;
+} */
+
+/* h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3.5rem;
+  color: #eee;
+  text-align: center;
+  -webkit-text-stroke: 2.5px;
+  -webkit-text-stroke-color: #333;
+}
+
+.dash {
+  display: inline-block;
+    height: 15px;
+    width: 45px;
+    background-color: #eee;
+    animation: blink 1s infinite linear;
+    border: 3.5px solid #333;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+/* ul {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+li {
+  display: flex;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.3rem;
+  color: #eee;
+  text-align: start;
+  margin: 15px auto;
+  -webkit-text-stroke: 1.5px;
+  -webkit-text-stroke-color: #333;
+}
+
+h2:hover {
+  padding:0 0 0 10px;
+  text-shadow: 0 0 4px #eee;
+  display: inline-block;
+  -webkit-text-stroke: 2.5px;
+  -webkit-text-stroke-color: #333;
+} */
