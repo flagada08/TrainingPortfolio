@@ -2,13 +2,18 @@
 import React from 'react';
 
 // == Import
+import Header from '../Header';
+import NavBar from '../NavBar';
+import Footer from '../Footer';
 import './projects.scss';
 
 // == Composant
 const Projects = () => (
   <div className="projects">
-    <h3>My Projects</h3>
-    <p>
+    <Header />
+    <NavBar />
+    <h3 className="projects-title">My Projects</h3>
+    <p className="projects-resume">
       Sed ut perspiciatis unde omnis iste natus error sit
       voluptatem accusantium doloremque laudantium, totam rem
       aperiam, eaque ipsa quae ab illo inventore veritatis et
@@ -17,6 +22,7 @@ const Projects = () => (
       odit aut fugit, sed quia consequuntur magni dolores eos
       qui ratione voluptatem sequi nesciunt.
     </p>
+    <Footer />
   </div>
 );
 

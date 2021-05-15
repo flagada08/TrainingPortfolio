@@ -1,34 +1,21 @@
 .contact {
-  width: 600px;
-  min-height: 300px;
-  padding: 5px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  
-  p {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 1.5rem;
-    color: #eee;
-    text-align: center;
-    -webkit-text-stroke: 1.5px;
-    -webkit-text-stroke-color: #333;
-  }
-  
-  /* position the div in center */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-  h3 {
+  background: url(../../img/pixel-jeff-night-shift.gif) no-repeat center/cover;
+  min-height: 100vh;
+  overflow: hidden;
+
+  .contact-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 3rem;
     color: #eee;
-    text-align: center;
-    padding: 3rem;
     -webkit-text-stroke: 2.5px;
+    -webkit-text-stroke-color: #333;
+  }
+  
+  .contact-resume {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    color: #eee;
+    -webkit-text-stroke: 1.5px;
     -webkit-text-stroke-color: #333;
   }
 }

@@ -1,34 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-.welcome {
-  width: 300px;
-  min-height: 300px;
-  padding: 5px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  p {
+.home-page {
+    background: url(../../img/pixel-jeff-clipa-s.gif) no-repeat center/cover;
+    min-height: 100vh;
+    overflow: hidden;
+  
+  .home-page-title {
     font-family: 'Press Start 2P', cursive;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #eee;
-    text-align: center;
-    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke: 2.5px;
     -webkit-text-stroke-color: #333;
   }
   
-  /* position the div in center */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-h3 {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  color: #eee;
-  text-align: center;
-  -webkit-text-stroke: 2.5px;
-  -webkit-text-stroke-color: #333;
+  .home-page-resume {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: #eee;
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: #333;
+  }  
 }

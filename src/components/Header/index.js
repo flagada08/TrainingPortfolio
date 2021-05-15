@@ -7,11 +7,13 @@ import './header.scss';
 
 // == Composant
 const Header = () => (
-  <NavLink to="/">
-    <h1>TrainingPortfolio
-      <span className="dash" />
-    </h1>
-  </NavLink>
+  <div className="header">
+    <NavLink to="/">
+      <h1 className="header-title">TrainingPortfolio
+        <span className="header-dash" />
+      </h1>
+    </NavLink>
+  </div>
 );
 
 // == Export

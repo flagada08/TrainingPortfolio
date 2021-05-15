@@ -6,20 +6,18 @@ import {
 } from 'react-router-dom';
 
 // == Import
-import Header from '../Header';
-import NavBar from '../NavBar';
+
 import HomePage from '../HomePage';
 import AboutMe from '../AboutMe';
 import Projects from '../Projects';
 import Contact from '../Contact';
+
 import './styles.scss';
 
 // == Composant
 const App = () => (
   <div className="app">
 
-    <Header />
-    <NavBar />
     {/* <Switch> */}
     <Route exact path="/">
       <HomePage />
@@ -34,6 +32,7 @@ const App = () => (
       <Contact />
     </Route>
     {/* </Switch> */}
+
   </div>
 );
 

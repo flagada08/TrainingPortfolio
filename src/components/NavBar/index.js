@@ -7,33 +7,33 @@ import './navbar.scss';
 
 // == Composant
 const NavBar = () => (
-  <nav>
-    <ul>
-      <li>
+  <nav className="navbar">
+    <ul className="navbar-ul">
+      <li className="navbar-li">
         <NavLink
           to="/aboutme"
           activeClassName="active-navbar"
           exact
         >
-          <h2>AboutMe</h2>
+          <h2 className="h2-navbar">AboutMe</h2>
         </NavLink>
       </li>
-      <li>
+      <li className="navbar-li">
         <NavLink
           to="projects"
           activeClassName="active-navbar"
           exact
         >
-          <h2>Projects</h2>
+          <h2 className="h2-navbar">Projects</h2>
         </NavLink>
       </li>
-      <li>
+      <li className="navbar-li">
         <NavLink
           to="contact"
           activeClassName="active-navbar"
           exact
         >
-          <h2>Contact</h2>
+          <h2 className="h2-navbar">Contact</h2>
         </NavLink>
       </li>
     </ul>
