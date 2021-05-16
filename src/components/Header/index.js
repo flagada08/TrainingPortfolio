@@ -8,7 +8,7 @@ import './header.scss';
 // == Composant
 const Header = () => (
   <div className="header">
-    <NavLink to="/">
+    <NavLink exact to="/" activeClassName="active-header">
       <h1 className="header-title">TrainingPortfolio
         <span className="header-dash" />
       </h1>

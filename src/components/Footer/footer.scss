@@ -1,7 +1,12 @@
-.footer-title {
-  font-family: 'Press Start 2P', cursive;
-    font-size: 3rem;
-    color: #eee;
-    -webkit-text-stroke: 2.5px;
-    -webkit-text-stroke-color: #333;
+.footer {
+  display: flex;
+  justify-content: center;
+
+  .footer-title {
+    font-family: 'Press Start 2P', cursive;
+      font-size: 3rem;
+      color: #eee;
+      -webkit-text-stroke: 2.5px;
+      -webkit-text-stroke-color: #333;
+  }
 }

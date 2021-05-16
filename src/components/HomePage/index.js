@@ -12,10 +12,12 @@ const HomePage = () => (
   <div className="home-page">
     <Header />
     <NavBar />
-    <h3 className="home-page-title">Terence Persin</h3>
-    <p className="home-page-resume">
-      Développeur Web
-    </p>
+    <div className="container">
+      <h3 className="home-page-title">Terence Persin</h3>
+      <p className="home-page-resume">
+        Développeur Web et Web Mobile JS/PHP
+      </p>
+    </div>
     <Footer />
   </div>
 );

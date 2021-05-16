@@ -12,14 +12,16 @@ const AboutMe = () => (
   <div className="about-me">
     <Header />
     <NavBar />
-    <h3 className="about-me-title">About Me</h3>
-    <p className="about-me-resume">
-      Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Sit illo ducimus officiis rerum animi fugiat
-      dicta alias error veritatis, vel sint, id ab et ex
-      omnis ratione obcaecati sunt asperiores laudantium
-      quibusdam dolor.
-    </p>
+    <div className="container">
+      <h3 className="about-me-title">AboutMe</h3>
+      <p className="about-me-resume">
+        Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Sit illo ducimus officiis rerum animi fugiat
+        dicta alias error veritatis, vel sint, id ab et ex
+        omnis ratione obcaecati sunt asperiores laudantium
+        quibusdam dolor.
+      </p>
+    </div>
     <Footer />
   </div>
 );
