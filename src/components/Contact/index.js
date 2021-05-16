@@ -16,7 +16,6 @@ const Contact = () => (
       <h3 className="contact-title">Contact</h3>
       <p className="contact-resume">
         Terence Persin
-        Développeur Web et Web Mobile spécialisé React.js
         flagada08@gmail.com
       </p>
     </div>

@@ -9,7 +9,8 @@ import './header.scss';
 const Header = () => (
   <div className="header">
     <NavLink exact to="/" activeClassName="active-header">
-      <h1 className="header-title">TrainingPortfolio
+      <h1 className="header-title">
+        TerenceWorldfolio
         <span className="header-dash" />
       </h1>
     </NavLink>

@@ -11,9 +11,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 
     .about-me-title {
+      margin-bottom: 25px;
       font-family: 'Press Start 2P', cursive;
       font-size: 3rem;
       color: #eee;

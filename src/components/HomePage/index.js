@@ -13,9 +13,11 @@ const HomePage = () => (
     <Header />
     <NavBar />
     <div className="container">
-      <h3 className="home-page-title">Terence Persin</h3>
+      <h3 className="home-page-title">
+        Welcome in my Worldfolio
+      </h3>
       <p className="home-page-resume">
-        Développeur Web et Web Mobile JS/PHP
+        Terence Persin Web Developer JS/PHP
       </p>
     </div>
     <Footer />
