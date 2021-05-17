@@ -1,0 +1,58 @@
+@import "node_modules/pixel-borders/src/styles/pixel-borders.scss";
+
+.playsound {
+  position: fixed;
+  top: 50%;
+  right: 5px;
+
+  .play-sound-theme {
+    margin: 5px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: #eee;
+    -webkit-text-stroke: 2.5px;
+    -webkit-text-stroke-color: #333;
+    background: none;
+    border: none;
+
+    &:hover {
+      text-transform: uppercase;
+      text-shadow: 0 0 10px #eee;
+      -webkit-text-stroke: 2.5px;
+      -webkit-text-stroke-color: #333;
+    }
+  }
+}
+
+button {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}

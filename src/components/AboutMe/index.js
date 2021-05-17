@@ -21,7 +21,33 @@ const AboutMe = () => (
         <br />
         Coding in MEUSE (55)
         <br />
-        Recently graduated in web development BTS/DUT (BAC+2)
+        High Level Technician BTS/DUT (BAC+2), web and mobile web
+        <br />
+        development ⋅ 2020 to 2021
+        <br />
+        Web Development school
+        <br />
+        Linux, Git,
+        <br />
+        HTML, CSS, RWD,
+        <br />
+        SEO,
+        <br />
+        Bootstrap,
+        <br />
+        PHP, POO, Laravel, SQL,
+        <br />
+        MVC, Composer,
+        <br />
+        JS, SCSS, React,
+        <br />
+        ORM,
+        <br />
+        Framework, API, AJAX,
+        <br />
+        Adminsys, SSH, Deploy,
+        <br />
+        CMS, Wordpress
       </p>
     </div>
     <Footer />

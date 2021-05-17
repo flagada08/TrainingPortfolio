@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 
 // == Import
-
+import PlaySound from '../PlaySound';
 import HomePage from '../HomePage';
 import AboutMe from '../AboutMe';
 import Projects from '../Projects';
@@ -17,7 +17,7 @@ import './styles.scss';
 // == Composant
 const App = () => (
   <div className="app">
-
+    <PlaySound />
     {/* <Switch> */}
     <Route exact path="/">
       <HomePage />
@@ -32,7 +32,6 @@ const App = () => (
       <Contact />
     </Route>
     {/* </Switch> */}
-
   </div>
 );
 

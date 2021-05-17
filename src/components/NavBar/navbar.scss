@@ -35,4 +35,10 @@
       -webkit-text-stroke-color: #333;
     }
   }
+  
+  @media (max-width: 1200px) {
+    .navbar {
+      display: flex;
+    }
+  }
 }

@@ -17,7 +17,9 @@ const HomePage = () => (
         Welcome in my Worldfolio
       </h3>
       <p className="home-page-resume">
-        Terence Persin Web Developer JS/PHP
+        Terence Persin
+        <br />
+        Web Developer JS/PHP
       </p>
     </div>
     <Footer />

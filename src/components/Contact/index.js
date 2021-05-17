@@ -16,6 +16,7 @@ const Contact = () => (
       <h3 className="contact-title">Contact</h3>
       <p className="contact-resume">
         Terence Persin
+        <br />
         flagada08@gmail.com
       </p>
     </div>

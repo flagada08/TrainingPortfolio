@@ -24,6 +24,13 @@ module.exports = merge(common, {
   module: {
     rules: [
       {
+        test: /\.mp3$/,
+        loader: 'file-loader',
+        query: {
+          name: 'static/media/[name].[hash:8].[ext]'
+        }
+      },
+      {
         test: /\.(s?css)$/,
         use: [
           {
