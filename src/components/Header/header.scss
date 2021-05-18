@@ -7,9 +7,9 @@
       }
   
   .header-title {
-    margin: 15px;
+    margin: 15px 0;
     font-family: 'Press Start 2P', cursive;
-    font-size: 5vw;
+    font-size: 5.5vw;
     color: #eee;
     -webkit-text-stroke: 2.5px;
     -webkit-text-stroke-color: #333;
@@ -43,16 +43,10 @@
 
   @media (max-width: 640px) {
       .header-title {
-        margin: 15px;
-        text-transform: uppercase;
         font-family: 'Press Start 2P', cursive;
         color: #eee;
         -webkit-text-stroke: 1.5px;
         -webkit-text-stroke-color: #333;
-    
-      &:hover {
-        text-shadow: 0 0 10px #eee;
-      }
 
       .header-dash {
         display: inline-block;

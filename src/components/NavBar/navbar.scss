@@ -35,10 +35,32 @@
       -webkit-text-stroke-color: #333;
     }
   }
+}
   
   @media (max-width: 1200px) {
     .navbar {
+      position: relative;
+      margin: auto;
+      height: auto;
       display: flex;
+      justify-content: center;
+      
+      .navbar-ul {
+        display: flex;
+        flex-direction: row;
+
+        .navbar-li {
+          margin: 15px;
+        }
+      }
     }
   }
-}
+
+  @media (max-width: 920px) {
+    .navbar {
+      .navbar-ul {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }

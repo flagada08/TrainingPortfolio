@@ -7,11 +7,12 @@ import HopeIsNotLost from '../../sound/HopeIsNotLost.mp3';
 import './playsound.scss';
 
 // == Composant
-const PlaySound = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
+const PlaySound = ({ children }) => {
+  const [isPlaying, setIsPlaying] = useState(true);
+  console.log(isPlaying);
 
   return (
-    <div className="playsound">
+    <div className={`playsound ${!isPlaying ? '' : 'bg-animated'}`}>{children}
       <Sound
         url={HopeIsNotLost}
         playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}

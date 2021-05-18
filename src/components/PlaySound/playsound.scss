@@ -48,3 +48,18 @@
     }
   }
 }
+
+@media (max-width: 1080px) {
+  .playsound {
+    position: static;
+    height: 35vh;
+    background: url(../../img/181227-fixed.gif) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    &.bg-animated {
+      background: url(../../img/181227.gif) no-repeat center/cover;
+    }
+  }
+}
