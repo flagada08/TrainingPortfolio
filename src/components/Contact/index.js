@@ -18,6 +18,10 @@ const Contact = () => (
         Terence Persin
         <br />
         flagada08@gmail.com
+        <br />
+        <a className="a-resume" href="https://gitconnected.com/flagada08/resume" target="_blank" rel="noreferrer">
+          View my Resume
+        </a>
       </p>
     </div>
     <Footer />

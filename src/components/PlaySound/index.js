@@ -15,8 +15,11 @@ const PlaySound = () => {
       <Sound
         url={HopeIsNotLost}
         playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
+        volume={50}
+        autoplay
         loop
       />
+      <h4>SoundTheme</h4>
       <button className="play-sound-theme" type="button" onClick={() => setIsPlaying(!isPlaying)}>
         {!isPlaying ? 'Play' : 'Stop'}
       </button>

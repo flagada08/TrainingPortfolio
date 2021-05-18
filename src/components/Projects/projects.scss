@@ -1,3 +1,5 @@
+@import "../../../node_modules/pixel-borders/src/styles/pixel-borders.scss";
+
 .projects {
   background: url(../../img/pixel-jeff-matrix-s.gif) no-repeat center/cover;
   min-height: 100vh;
@@ -32,6 +34,12 @@
       color: #eee;
       -webkit-text-stroke: 2px;
       -webkit-text-stroke-color: #333;
+      @include pixel-borders(
+        $corner-size: 2,
+        $border-size: 5px,
+        $border-color: #eee,
+        $border-inset-color: false
+      );
     }
   }
 }
