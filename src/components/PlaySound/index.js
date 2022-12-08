@@ -8,8 +8,7 @@ import './playsound.scss';
 
 // == Composant
 const PlaySound = ({ children }) => {
-  const [isPlaying, setIsPlaying] = useState(true);
-  console.log(isPlaying);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   return (
     <div className={`playsound ${!isPlaying ? '' : 'bg-animated'}`}>{children}
