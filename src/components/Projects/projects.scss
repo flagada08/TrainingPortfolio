@@ -6,9 +6,8 @@
   overflow: hidden;
 
   .container {
-    line-height: 3rem;
-    height: 100vh;
-    width: 50vw;
+    line-height: 3em;
+    width: 60vw;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -16,9 +15,10 @@
     justify-content: center;
 
     .projects-title {
-      margin-bottom: 25px;
+      text-align: center;
+      margin: 25px;
       font-family: 'Press Start 2P', cursive;
-      font-size: 3rem;
+      font-size: 3em;
       color: #eee;
       -webkit-text-stroke: 2.5px;
       -webkit-text-stroke-color: #333;

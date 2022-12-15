@@ -15,9 +15,7 @@ const Contact = () => (
     <div className="container">
       <h3 className="contact-title">Contact</h3>
       <p className="contact-resume">
-        Terence Persin
-        <br />
-        flagada08@gmail<br />.com
+        <a href="mailto:flagada08@gmail.com">Send Email</a>
         <br />
         <a className="a-resume" href="https://gitconnected.com/flagada08/resume" target="_blank" rel="noreferrer">
           View my Resume
