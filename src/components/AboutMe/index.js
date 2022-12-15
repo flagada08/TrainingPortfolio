@@ -21,9 +21,11 @@ const AboutMe = () => (
         <br />
         Coding in MEUSE (55)
         <br />
-        High Level Technician BTS/DUT (BAC+2), web and mobile web
+        High Level Technician BTS/DUT (BAC+2),
         <br />
-        development ⋅ 2020 to 2021
+        web and mobile web development 
+        <br />
+        ⋅ 2020 to 2021
         <br />
         Web Development school
         <br />
