@@ -26,7 +26,7 @@ const Projects = () => (
       <a href="https://agence-demo.000webhostapp.com/index.html" target="_blank" rel="noreferrer">
         <img src={imageProject2} alt="img project login react" className="projects-resume" />
       </a>
-      <p className="projects-resume">Démonstration d'une agence immobilière, HTML, CSS, SASS, JS(JQUERY), PHP(PDO)</p>
+      <p className="projects-resume">Démonstration d'un site web pour une agence immobilière, HTML, CSS, SASS, JS(JQUERY), PHP(PDO)</p>
     </div>
     <Footer />
   </div>
