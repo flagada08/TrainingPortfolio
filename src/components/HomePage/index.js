@@ -9,21 +9,23 @@ import './homepage.scss';
 
 // == Composant
 const HomePage = () => (
-  <div className="home-page">
-    <Header />
-    <NavBar />
-    <div className="container">
-      <h3 className="home-page-title">
-        Welcome in my Worldfolio
-      </h3>
-      <p className="home-page-resume">
-        Terence Persin
-        <br />
-        Web Developer JS/PHP
-      </p>
+  <>
+    <div className="home-page">
+      <Header />
+      <NavBar />
+      <div className="container">
+        <h3 className="home-page-title">
+          Welcome in my Worldfolio
+        </h3>
+        <p className="home-page-resume">
+          Terence Persin
+          <br />
+          Web Developer JS/PHP
+        </p>
+      </div>
     </div>
     <Footer />
-  </div>
+  </>
 );
 
 // == Export
